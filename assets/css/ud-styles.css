@@ -14,8 +14,8 @@
 :root {
   --font: "Inter", sans-serif;
   --body-color: #637381;
-  --heading-color: #3fb549 ;
-  --primary-color: #4295d2;
+  --heading-color: #000000 ;
+  --primary-color: #272c71s;
   --white: #ffffff;
 }
 
@@ -147,7 +147,7 @@ p {
   border-radius: 5px;
   padding: 15px 25px;
   border: 1px solid transparent;
-  color:white ;
+  color:#fff ;
   cursor: pointer;
   z-index: 5;
   -webkit-transition: all 0.4s ease-out 0s;
@@ -340,13 +340,13 @@ p {
 }
 
 .navbar-nav .nav-item > a:hover, .navbar-nav .nav-item > a.active {
-  color: #3fb549;
+  color: #ec1d24;
   opacity: 0.89;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .navbar-nav .nav-item > a:hover, .navbar-nav .nav-item > a.active {
-    color: #3fb549;
+    color: #ec1d24;
     opacity: 1;
   }
 }
@@ -394,7 +394,7 @@ p {
 }
 
 .navbar-nav .nav-item:hover > a {
-  color: #3fb549;
+  color: #ec1d24;
   opacity: 0.89;
 }
 
@@ -461,7 +461,7 @@ p {
 }
 
 .navbar-btn .ud-white-btn:hover {
-  background: white;
+  background: #ec1d24;
   color: var(--heading-color);
 }
 
@@ -479,7 +479,7 @@ p {
 }
 
 .sticky .navbar-nav .nav-item a.active, .sticky .navbar-nav .nav-item a:hover {
-  color: #3fb549;
+  color: #ec1d24;
   opacity: 1;
 }
 
@@ -494,7 +494,7 @@ p {
 
 .sticky .navbar-btn .ud-white-btn {
   background: var(--primary-color);
-  color: var(--white);
+  background: #ec1d24;
 }
 
 .sticky .navbar-btn .ud-white-btn:hover {
@@ -555,9 +555,9 @@ p {
 }
 
 .ud-hero-content .ud-hero-title {
-  color: var(--white);
+  color: #fff;
   font-weight: 600;
-  font-size: 45px;
+  font-size: 38px;
   line-height: 60px;
   text-align: center;
   margin-bottom: 20px;
@@ -626,8 +626,8 @@ p {
 }
 
 .ud-hero-buttons .ud-white-btn {
-  background: var(--white);
-  color: var(--heading-color);
+  background: #ec1d24;
+  color:#ffffff;
 }
 
 .ud-hero-buttons .ud-white-btn:hover {
@@ -772,10 +772,6 @@ p {
   }
 }
 
-#industries {
-  background-color: #f3f4fe;
-}
-
 .ud-single-feature {
   margin-bottom: 40px;
 }
@@ -798,9 +794,9 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 14px;
-  background: var(--primary-color);
+  background: rgb(81, 81, 246);
   font-size: 32px;
-  color: var(--white);
+  color: #fff;
   position: relative;
   z-index: 1;
   text-align: center;
@@ -815,7 +811,7 @@ p {
   top: 0;
   left: 0;
   border-radius: 14px;
-  background: var(--primary-color);
+  background: rgb(25, 42, 199);
   opacity: 0.2;
   z-index: -1;
   -webkit-transform: rotate(23deg);
@@ -1004,7 +1000,7 @@ p {
 }
 
 .ud-single-pricing.last-item::after {
-  background: #13c296;
+  background: #03689b;
   top: -2px;
   right: -2px;
   border-radius: 0px 8px 0px 55px;
@@ -2688,3 +2684,23 @@ p {
   }
 }
 /*# sourceMappingURL=ud-styles.css.map */
+
+.call-now-button {
+  display: inline-block;
+  padding: 10px ;
+  color: #222 ;
+  font-weight: 600;
+  font-size: 25px;
+  background: linear-gradient(180deg, red, white, blue);
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
+}
+
+.call-now-button:hover {
+  background: linear-gradient(90deg, blue, white, red);
+
+}

@@ -295,21 +295,3 @@
     }
   }
 }
-
-.ud-header .navbar-nav .call-now-item .call-now-button {
-  display: inline-block;
-  padding: 10px 20px;
-  color: white;
-  background: linear-gradient(90deg, red, white, blue);
-  text-align: center;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: background 0.3s ease;
-}
-
-.ud-header .navbar-nav .call-now-item .call-now-button:hover {
-  background: linear-gradient(90deg, blue, white, red);
-}
-

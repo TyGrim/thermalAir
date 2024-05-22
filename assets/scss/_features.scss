@@ -57,9 +57,9 @@
     align-items: center;
     justify-content: center;
     border-radius: 14px;
-    background: var(--primary-color);
+    background: blue;
     font-size: 32px;
-    color: var(--white);
+    color: red;
     position: relative;
     z-index: 1;
     text-align: center;
@@ -73,7 +73,7 @@
       top: 0;
       left: 0;
       border-radius: 14px;
-      background: var(--primary-color);
+      background: blue;
       opacity: 0.2;
       z-index: -1;
       @include transform(rotate(23deg));
