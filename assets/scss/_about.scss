@@ -74,5 +74,6 @@
 .ud-about-image {
   @media #{$md, $xs} {
     text-align: center;
+    display: hidden;
   }
 }
